@@ -30,7 +30,6 @@
                                 <td><?= $item["tag"] ?></td>
                                 <td><?= $item["siswa_nama"] ?></td>
                                 <td><?= $item["siswa_nis"] ?></td>
-                                <td><?= $item["Kelas_id"] ?></td>
                                 <td>
                                     <div class="btn-group" role="group" aria-label="First group">
                                         <a type="button" class="btn btn-outline-secondary">
@@ -39,7 +38,7 @@
                                         <a type="button" class="btn btn-outline-secondary">
                                             <i class='tf-icons bx bxs-edit'></i>
                                         </a>
-                                        <a type="button" href="/admin/artikel/delete/<?= $item["id"] ?>" class="btn btn-outline-secondary">
+                                        <a type="button" href="" class="btn btn-outline-secondary">
                                             <i class='tf-icons bx bx-trash'></i>
                                         </a>
                                     </div>

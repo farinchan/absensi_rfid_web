@@ -15,19 +15,20 @@
                     <thead>
                         <tr>
                             <th>No.</th>
-                            <th>ID Kelas</th>
-                            <th>Nama Kelas</th>
-                     
+                            <th>ID Absensi</th>
+                            <th>TAG</th>
+                            <th>Waktu Scan</th>
                             <th>Aksi</th>
                         </tr>
                     </thead>
                     <tbody>
                         <?php $no = 1 ?>
-                        <?php foreach ($kelas as $item) : ?>
+                        <?php foreach ($absensi as $item) : ?>
                             <tr>
                                 <td><?= $no++ ?></td>
                                 <td><?= $item["id"] ?></td>
-                                <td><?= $item["kelas_nama"] ?></td>
+                                <td><?= $item["tag_id"] ?></td>
+                                <td><?= $item["scan_time"] ?></td>
                                 <td>
                                     <div class="btn-group" role="group" aria-label="First group">
                                         <a type="button" class="btn btn-outline-secondary">
