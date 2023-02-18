@@ -19,6 +19,6 @@ class Siswa extends BaseController
             "active" => "siswa",
             "siswa" => $Siswa
         ];
-        return view("siswa", $data);
+        return view("v_siswa", $data);
     }
 }

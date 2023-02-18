@@ -20,6 +20,6 @@ class Kelas extends BaseController
             "active" => "kelas",
             "kelas" => $Kelas
         ];
-        return view("kelas", $data);
+        return view("v_kelas", $data);
     }
 }
