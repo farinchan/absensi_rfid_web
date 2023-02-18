@@ -14,7 +14,7 @@ class RegisterAdmin extends BaseController
         $data = [];
         echo view('register', $data);
     }
- 
+
     public function save()
     {
         //include helper form
@@ -26,8 +26,8 @@ class RegisterAdmin extends BaseController
             'password'      => 'required|min_length[6]|max_length[200]',
             'confpassword'  => 'matches[password]'
         ];
-         
-        if($this->validate($rules)){
+
+        if ($this->validate($rules)) {
             $model = new AdminModel();
             $data = [
                 'admin_name'     => $this->request->getVar('name'),
@@ -36,10 +36,9 @@ class RegisterAdmin extends BaseController
             ];
             $model->save($data);
             return redirect()->to('/login');
-        }else{
+        } else {
             $data['validation'] = $this->validator;
             echo view('register', $data);
         }
-         
     }
 }
