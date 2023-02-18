@@ -4,7 +4,7 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class Device extends Model
+class DeviceModel extends Model
 {
    
     protected $table = 'device';

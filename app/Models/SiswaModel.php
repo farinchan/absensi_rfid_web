@@ -4,7 +4,7 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class Siswa extends Model
+class SiswaModel extends Model
 {
     protected $table = 'device';
     protected $primaryKey       = 'tag';

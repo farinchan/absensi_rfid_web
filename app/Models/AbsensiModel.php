@@ -4,7 +4,7 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class Absensi extends Model
+class AbsensiModel extends Model
 {
     protected $table = 'absensi';
     protected $primaryKey       = 'tag';

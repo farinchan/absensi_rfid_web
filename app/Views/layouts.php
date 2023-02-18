@@ -156,16 +156,16 @@
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="layouts-without-menu.html" class="menu-link">
+                  <a href="/kelas" class="menu-link">
                     <div data-i18n="Without menu">Kelas</div>
                   </a>
                 </li>
-                <li class="menu-item">
+                <li class="/siswa">
                   <a href="layouts-without-navbar.html" class="menu-link">
                     <div data-i18n="Without navbar">daftar siswa</div>
                   </a>
                 </li>
-                <li class="menu-item">
+                <li class="/absensi">
                   <a href="layouts-without-navbar.html" class="menu-link">
                     <div data-i18n="Without navbar">Absensi</div>
                   </a>
